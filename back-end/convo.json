@@ -1,10 +1,17 @@
-
-[
+{
+  "English" :
+  [
   "Hello, how can i help you?",
   "What's your name?",
   "My name is Robot.",
   "Thanks.",
   "You are welcome."
-]
-
-
+],
+  "VietNam":[
+    "Xin chao, ban can gi o toi?",
+    "Ten ban la gi?",
+    "Ten toi la Robot",
+    "Xin cam on",
+    "Khong co chi"
+  ]
+}
