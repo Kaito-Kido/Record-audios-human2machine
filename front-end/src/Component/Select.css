@@ -1,0 +1,10 @@
+.select-button {
+    display: flex;
+    height: 55px;
+    width: full;
+    margin-top: 10px;
+}
+.form {
+    width: 300px;
+    margin-right: 10px;
+}

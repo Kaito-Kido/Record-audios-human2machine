@@ -1,0 +1,26 @@
+.line-container {
+    display: grid;
+    grid-template-columns: 50px auto;
+    max-height: 50px;
+    border: 2px solid #333;
+  }
+  
+  .line-container p {
+    text-align: start;
+    padding: 10px 5px;
+    margin: 0px;
+  }
+
+  .line-container div {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .button {
+      width: 50px;
+      height: 50px;
+      background-color: #333;
+  }
+  .select {
+    width: full;
+  }
