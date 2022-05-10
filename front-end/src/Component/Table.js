@@ -23,11 +23,11 @@ class Table extends Component {
     this.setState({lan: event.target.value});
     console.log(this.state.lan)
   };
-  componentDidMount() {
-    fetch(`http://127.0.0.1:5000/`)
+  fetchData = () => {
+    fetch(`https://ben1201.pythonanywhere.com/?lan=${this.state.lan}`)
       .then((res) => res.json())
       .then((json) => {
-        this.setState({ data: json }); console.log(this.state.data.English)
+        this.setState({ data: json }); console.log(this.state.data)
     });
   };
 
@@ -62,7 +62,7 @@ class Table extends Component {
                 </Select>
               </FormControl>
               </div>
-              <Button variant="outlined">Claim</Button>
+              <Button variant="outlined" onClick={this.fetchData}>Claim</Button>
         </div>
 
         <Record />
